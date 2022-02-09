@@ -1,0 +1,9 @@
+>>> len(payload)
+48
+>>> length_field = (len(payload)*8).to_bytes(8,'big');
+>>> padding=b'\x80' + b'\x00' * (64-len(payload)-1-8) + length_field
+>>> print(''.join('\\x{:02x}'.format(x) for x in padding))
+\x80\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x80
+>>> print(''.join('%{:02x}'.format(x) for x in padding))
+%80%00%00%00%00%00%00%00%00%00%00%00%00%00%01%80
+

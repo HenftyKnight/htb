@@ -1,0 +1,24 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+NBITS	.\RSA Encryption and Signature\find-private-key.c	4;"	d	file:
+element	.\RSA Encryption and Signature\alternate.py	/^    element = list1[i]$/;"	v
+largest_list_1	.\RSA Encryption and Signature\alternate.py	/^    largest_list_1 = 1$/;"	v
+largest_list_1	.\RSA Encryption and Signature\alternate.py	/^largest_list_1 = 0$/;"	v
+largest_list_2	.\RSA Encryption and Signature\alternate.py	/^    largest_list_2 = 1$/;"	v
+largest_list_2	.\RSA Encryption and Signature\alternate.py	/^largest_list_2 = 0$/;"	v
+length_list_1	.\RSA Encryption and Signature\alternate.py	/^length_list_1 = len(list1)$/;"	v
+length_list_2	.\RSA Encryption and Signature\alternate.py	/^length_list_2 = len(list2)$/;"	v
+list1	.\RSA Encryption and Signature\alternate.py	/^list1 = []$/;"	v
+list2	.\RSA Encryption and Signature\alternate.py	/^list2 = ["a", "b", "c"]$/;"	v
+list_length	.\RSA Encryption and Signature\alternate.py	/^list_length = short_list_length$/;"	v
+main	.\RSA Encryption and Signature\find-private-key.c	/^int main() {$/;"	f
+new_list	.\RSA Encryption and Signature\alternate.py	/^new_list = []$/;"	v
+printBN	.\RSA Encryption and Signature\find-private-key.c	/^void printBN(char *msg, BIGNUM *a) {$/;"	f
+remaining_list	.\RSA Encryption and Signature\alternate.py	/^    remaining_list = list1[list_length:]$/;"	v
+remaining_list	.\RSA Encryption and Signature\alternate.py	/^    remaining_list = list2[list_length:]$/;"	v
+short_list_length	.\RSA Encryption and Signature\alternate.py	/^    short_list_length = length_list_1$/;"	v
+short_list_length	.\RSA Encryption and Signature\alternate.py	/^    short_list_length = length_list_2$/;"	v

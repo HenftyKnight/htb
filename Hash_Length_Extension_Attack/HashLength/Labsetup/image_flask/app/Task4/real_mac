@@ -1,0 +1,3 @@
+real_mac = hmac.new(bytearray(key.encode('utf-8')),
+                msg=message.encode('utf-8','surrogateescape'),
+                digestmod=hashlib.sha256).hexdigest()

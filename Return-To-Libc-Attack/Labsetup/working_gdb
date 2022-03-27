@@ -1,0 +1,1 @@
+gcc -g -m32 -DBUF_SIZE=48 -fno-stack-protector -z noexecstack -o retlib_dbg retlib.c
